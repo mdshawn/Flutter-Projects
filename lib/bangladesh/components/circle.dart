@@ -6,8 +6,9 @@ class RedCircle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 300,
-      decoration: BoxDecoration(color: Colors.redAccent, shape: BoxShape.circle),
+      height: 200,
+      decoration:
+          BoxDecoration(color: Colors.redAccent, shape: BoxShape.circle),
     );
   }
 }
